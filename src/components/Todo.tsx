@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type Todo = {
+export type Todo = {
   id: number;
   text: string;
 };
