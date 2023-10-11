@@ -6,7 +6,7 @@ export type Todo = {
   text: string;
 };
 
-export const Example = () => {
+export const Todo = () => {
   // 入力値
   const [inputText, setInputText] = useState("");
   // TodoList
