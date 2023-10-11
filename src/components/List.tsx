@@ -1,7 +1,8 @@
 // リスト表示
 
 import { FC } from "react";
-import { Todo } from "./Todo";
+//型のみインポートするのを明示的に書く方法
+import type { Todo } from "./Todo";
 
 type TaskListProps = {
   todos: Todo[];
